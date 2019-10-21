@@ -18,11 +18,9 @@ app.use(express.json());
 // Serve up static assets (heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
-  uri =
-    "mongodb+srv://regharris0504:papaya@cluster0-47pet.mongodb.net/test?retryWrites=true&w=majority"; // connection string for Atlas here
+  uri = process.env.ATLAS_URI; // connection string for Atlas here
 } else {
-  uri =
-    "mongodb+srv://regharris0504:papaya@cluster0-47pet.mongodb.net/test?retryWrites=true&w=majority"; // connection string for localhost mongo here
+  uri = process.env.ATLAS_URI; // connection string for localhost mongo here
 }
 
 // connection to database
