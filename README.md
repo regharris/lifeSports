@@ -8,6 +8,9 @@ LifeSport is a organization that specializes in helping youth through sports and
 
 This app is built with React, a javascript library. Each page is a different component rendered through a router.
 
+###link
+https://lifesports-reggie.herokuapp.com/
+
 ### Usage
 
 In order to use this app, you must npm Install all dependencies.After installing, run "npm run start" to start "concurrently", which is a npm package used for starting the client and server. The application will open on the default port specified, if say port isnt specified it will automatically be set to run on port 5000.
