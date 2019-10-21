@@ -1,15 +1,18 @@
-
 # LifeSports Challlenge and Hackathon
 
 ### About Us
 
+LifeSport is a organization that specializes in helping youth through sports and education. The exercise app helps create exercises with a description, duration and a coach. Once you create a username, it will always be saved in the system. You then are able to create, edit, or delete the exercise.
 
 ### Build Components
 
+This app is built with React, a javascript library. Each page is a different component rendered through a router.
+
 ### Usage
 
-```js
+In order to use this app, you must npm Install all dependencies.After installing, run "npm run start" to start "concurrently", which is a npm package used for starting the client and server. The application will open on the default port specified, if say port isnt specified it will automatically be set to run on port 5000.
 
+```js
 ```
 
 #### Challenge Instructions
@@ -35,4 +38,3 @@ The APIs will be tested and the github accts reviewed to determine the number of
 3. Each submission should include an updated UI, with updates, as required, to the mongoose data model, api server and integrations. All Submissions must be deployed with a professionally composed github repo and a live working app on Heroku
 
 4. The deadline for all submissions in Thursday, Oct 24 at 5pm
-
